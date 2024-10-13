@@ -27,6 +27,9 @@
             letter-spacing: 0.1em;
             font-weight: 350;
         }
+        & li:hover{
+            opacity: 0.6;
+        }
     }
 }
 
