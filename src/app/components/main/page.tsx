@@ -40,7 +40,7 @@ export default function Main(){
                         </div>
                     </section>
                 </div>    
-                <section className={css.main_section_02}>
+                <section className={css.main_section_02} id="about">
                     <div className={css.left_side_02}>
                         <Image
                         src={pic}
@@ -94,7 +94,7 @@ export default function Main(){
                         </div>
                     </div>
                 </section>
-                <section className={css.main_section_03}>
+                <section className={css.main_section_03} id="skill">
                     <div className={css.left_side_03}>
                         <div className={css.container}>
                             <div className={css.item}>
