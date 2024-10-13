@@ -11,12 +11,14 @@ import github from "../image/github.png"
 import linkedin from "../image/linkedin.png"
 import email from "../image/email.png"
 import item6 from "../image/video-editor.png" 
+import  Header from "../header/page"
 
 
 export default function Main(){
     return(
         <div>
             <main className={css.main_section}>
+                <Header/>
                 <div className={css.main}>
                     {/* <Header/> */}
                     <section className={css.main_section_01}>
