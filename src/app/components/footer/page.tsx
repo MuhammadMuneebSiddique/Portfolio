@@ -7,7 +7,7 @@ import Image from "next/image"
 export default function Footer(){
     return(
         <div>
-            <div className={css.footer_section}>
+            <div className={css.footer_section} id="contact">
                 <h2>Portfolio</h2>    
                 <div className={css.contact_icon}>
                     <a href="https://github.com/MuhammadMuneebSiddique">
