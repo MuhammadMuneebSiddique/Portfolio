@@ -10,7 +10,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 7rem;
 }
 
 /* ===== SECTION 01 ===== */
@@ -19,8 +18,9 @@
     display: flex;
     justify-content: space-between;
     object-fit: cover;
-    padding: 2em 7em;
+    padding: 0em 7em;
     width: 100%;
+    height: 100vh;
     font-size: 10px;
 }
 
