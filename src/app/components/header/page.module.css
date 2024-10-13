@@ -1,0 +1,97 @@
+
+.header_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    padding: 2rem 7rem;
+    background-color: #ccc;
+}
+
+.header_name{
+    font-size: 4em;
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+
+.nav_bar{
+    & ul{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 5em;
+        & li{
+            font-size: 2.2em;
+            color: #000;
+            letter-spacing: 0.1em;
+            font-weight: 350;
+        }
+    }
+}
+
+@media (width < 1400px) {
+    .header_section{
+        font-size: 9.5px;
+    }
+}
+@media (width < 1300px) {
+    .header_section{
+        font-size: 9px;
+    }
+}
+@media (width < 1200px) {
+    .header_section{
+        font-size: 8.5px;
+    }
+}
+@media (width < 1100px) {
+    .header_section{
+        font-size: 8px;
+    }
+}
+@media (width < 1000px) {
+    .header_section{
+        font-size: 7.5px;
+    }
+}
+@media (width < 900px) {
+    .header_section{
+        font-size: 7px;
+    }
+}
+@media (width < 800px) {
+    .header_section{
+        font-size: 6.5px;
+    }
+}
+@media (width < 700px) {
+    .header_section{
+        font-size: 6px;
+    }
+}
+@media (width < 600px) {
+    .header_section{
+        font-size: 5.5px;
+    }
+}
+@media (width < 500px) {
+    .header_section{
+        font-size: 5px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+@media (width < 400px) {
+    .header_section{
+        font-size: 4.5px;
+    }
+}
+@media (width < 300px) {
+    .header_section{
+        font-size: 4px;
+    }
+}
